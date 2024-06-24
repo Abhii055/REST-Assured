@@ -46,6 +46,7 @@ public class putPatchDeleteExample {
 			statusCode(200).log().all();
 		
 		
+		
 	}
 	@Test	
 	public void testDelete() {

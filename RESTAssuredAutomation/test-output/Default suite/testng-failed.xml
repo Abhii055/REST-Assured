@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Tests.putPatchDeleteExample">
+      <class name="Examplejson">
         <methods>
-          <include name="testDelete"/>
+          <include name="test_delete"/>
         </methods>
-      </class> <!-- Tests.putPatchDeleteExample -->
+      </class> <!-- Examplejson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
