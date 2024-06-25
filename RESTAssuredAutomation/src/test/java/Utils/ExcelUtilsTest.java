@@ -9,7 +9,11 @@ public class ExcelUtilsTest {
 	ExcelUtils ex = new ExcelUtils(excelPath,sheetName);
 	
 	ex.getCellData(0, 0);
-	ex.getCellData(1,0);
+	ex.getCellData(0, 1);
+	ex.getCellData(1, 0);
+	ex.getCellData(1, 1);
+	ex.getCellData(2,0);
+	ex.getCellData(2,1);
 	ex.getRowCount();
 }
 }
